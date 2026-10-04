@@ -1,0 +1,1208 @@
+{
+  "kitchen": {
+    "title": {
+      "en": "KITCHEN",
+      "az": "MƏTBƏX",
+      "ru": "КУХНЯ"
+    },
+    "categories": [
+      {
+        "id": "sandwiches-breakfast",
+        "name": {
+          "en": "SANDWICHES & BREAKFAST",
+          "az": "SENDVİÇLƏR VƏ SƏHƏR YEMƏYİ",
+          "ru": "СЭНДВИЧИ И ЗАВТРАКИ"
+        },
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "garage-burger",
+            "name": {
+              "en": "Garage 73 Monster Burger",
+              "az": "Garage 73 Monster Burger",
+              "ru": "Garage 73 Монстр Бургер"
+            },
+            "price": 14.5,
+            "weight": "420g",
+            "ingredients": {
+              "en": "Black Angus beef patty, smoked bacon, double cheddar, caramelized onions, BBQ sauce, brioche bun, potato wedges",
+              "az": "Black Angus mal əti filesi, hisə verilmiş bekon, ikiqat çedder, karamelləşmiş soğan, BBQ sousu, brioş bulkası, kənd sayağı kartof",
+              "ru": "Котлета из говядины Black Angus, копченый бекон, двойной чеддер, карамелизованный лук, фирменный соус BBQ, булочка бриошь, картофельные дольки"
+            },
+            "description": {
+              "en": "Our signature pub burger with juicy grilled beef, melted aged cheddar, and house-smoked glaze served with crispy wedges.",
+              "az": "Şirəli qril mal əti, əridilmiş çedder pendiri və xüsusi hisə verilmiş sous ilə servis olunan imza burgerimiz.",
+              "ru": "Фирменный сочный бургер с говяжьей котлетой на открытом огне, выдержанным сыром чеддер и дымным соусом BBQ."
+            },
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "club-sandwich",
+            "name": {
+              "en": "Classic Club Sandwich",
+              "az": "Klassik Klub Sendviç",
+              "ru": "Классический Клаб-Сэндвич"
+            },
+            "price": 11.0,
+            "weight": "350g",
+            "ingredients": {
+              "en": "Grilled chicken breast, crispy turkey bacon, hard-boiled egg, fresh tomatoes, crisp lettuce, garlic mayo, toasted bread, french fries",
+              "az": "Qril toyuq filesi, xırtıldayan bekon, qaynadılmış yumurta, təzə pomidor, kahı, sarımsaqlı mayonez, tost çörəyi, kartof fri",
+              "ru": "Филе цыпленка на гриле, хрустящий бекон, отварное яйцо, спелые томаты, салат айсберг, чесночный айоли, тосты, картофель фри"
+            },
+            "description": {
+              "en": "Triple-decker toasted sandwich packed with tender chicken, crisp bacon, lettuce, and homemade fries.",
+              "az": "Zərif qril toyuq və xırtıldayan tərəvəzlərlə hazırlanmış üçqat doyumlu sendviç.",
+              "ru": "Сытный трехслойный сэндвич с обжаренным куриным филе, беконом и хрустящей картошкой фри."
+            },
+            "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "full-english-breakfast",
+            "name": {
+              "en": "Full Garage English Breakfast",
+              "az": "Garage İngilis Səhər Yeməyi",
+              "ru": "Большой Английский Завтрак"
+            },
+            "price": 13.0,
+            "weight": "450g",
+            "ingredients": {
+              "en": "Two fried eggs, grilled pork sausage, baked beans in rich tomato sauce, crispy bacon, grilled button mushrooms, roasted tomato, sourdough toast",
+              "az": "İki qızardılmış yumurta, qril sosislər, pomidor souslu lobya, bekon, qızardılmış şampinyon, pomidor, xırtıldayan tost",
+              "ru": "Два жареных яйца, охотничьи колбаски на гриле, печеная фасоль в томатном соусе, бекон, жареные шампиньоны, томат на гриле, хрустящие тосты"
+            },
+            "description": {
+              "en": "The ultimate hearty pub breakfast served all day to recharge your battery.",
+              "az": "Günün istənilən saatında enerjinizi bərpa edən ənənəvi zəngin ingilis səhər yeməyi.",
+              "ru": "Сытный аутентичный завтрак в стиле британских пабов для максимального заряда энергии."
+            },
+            "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "pulled-beef-panini",
+            "name": {
+              "en": "Slow-Smoked Pulled Beef Panini",
+              "az": "Təndirdə Bişmiş Mal Əti Panini",
+              "ru": "Панини с Рваной Говядиной"
+            },
+            "price": 12.5,
+            "weight": "360g",
+            "ingredients": {
+              "en": "12-hour slow-cooked shredded brisket, provolone cheese, pickled jalapeños, smoked chipotle dressing, ciabatta",
+              "az": "12 saat vam odda bişmiş mal əti filesi, provolone pendiri, marinadlanmış xalapeno, hisə verilmiş chipotle sousu, çiabatta",
+              "ru": "Томленая 12 часов сочная говяжья грудинка, сыр проволоне, пикантный халапеньо, чипотле-соус, хрустящая чиабатта"
+            },
+            "description": {
+              "en": "Melt-in-your-mouth slow roasted beef with melted cheese in a crusty pressed ciabatta.",
+              "az": "Ətirli çiabatta içində əriyən pendir və xüsusi dadlı yumşaq mal əti.",
+              "ru": "Нежнейшее томленое мясо с тягучим сыром и легкой пикантностью в хрустящем прессованном хлебе."
+            },
+            "image": "https://images.unsplash.com/photo-1621800043295-a73fe2f76e2c?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "soups",
+        "name": {
+          "en": "SOUPS",
+          "az": "ŞORBALAR",
+          "ru": "СУПЫ"
+        },
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "dushbara",
+            "name": {
+              "en": "Traditional Dushbara Soup",
+              "az": "Klassik Düşbərə Şorbası",
+              "ru": "Традиционная Дюшбара"
+            },
+            "price": 8.0,
+            "weight": "350ml",
+            "ingredients": {
+              "en": "Handmade miniature lamb dumplings, rich golden saffron broth, dried mint, grape vinegar on the side",
+              "az": "Əl ilə bükülmüş xırda qoyun ətli düşbərələr, zəfəranlı bulyon, quru nanə, sarımsaqlı sirkə",
+              "ru": "Миниатюрные ручные пельмени с бараниной, наваристый прозрачный бульон с шафраном, сушеная мята, чесночный винный уксус"
+            },
+            "description": {
+              "en": "Authentic Baku miniature lamb dumplings served in piping hot fragrant broth with mint.",
+              "az": "Ətirli və dadlı zəfəran bulyonunda nanə ilə təqdim olunan ənənəvi Bakı düşbərəsi.",
+              "ru": "Знаменитый бакинский суп с крошечными пельмешками ручной лепки в золотистом бульоне."
+            },
+            "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "creamy-mushroom-soup",
+            "name": {
+              "en": "Wild Mushroom Cream Soup",
+              "az": "Göbələk Krem Şorbası",
+              "ru": "Крем-суп из Лесных Грибов"
+            },
+            "price": 7.5,
+            "weight": "320ml",
+            "ingredients": {
+              "en": "Porcini and brown button mushrooms, heavy cream, truffle oil essence, garlic-herb croutons",
+              "az": "Şampinyon və meşə göbələkləri, qaymaq, zərif trüfel yağı, ətirli qrenkilər",
+              "ru": "Белые грибы и шампиньоны, сливки 33%, капли трюфельного масла, хрустящие чесночные сухарики"
+            },
+            "description": {
+              "en": "Velvety smooth mushroom cream soup finished with white truffle oil drops.",
+              "az": "Zərif qaymaqlı və trüfel ətirli ləziz göbələk krem şorbası.",
+              "ru": "Нежнейший сливочный суп с богатым грибным вкусом и утонченным ароматом трюфеля."
+            },
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "spicy-goulash-soup",
+            "name": {
+              "en": "Smoky Garage Beef Goulash",
+              "az": "Acılı Qulaş Şorbası",
+              "ru": "Острый Гуляш по-гаражному"
+            },
+            "price": 9.5,
+            "weight": "380ml",
+            "ingredients": {
+              "en": "Tender beef chunks, bell peppers, baby potatoes, smoked paprika, chili pepper, fresh parsley",
+              "az": "Mal əti tikələri, şirin bibər, kartof, hisə verilmiş paprika, acı bibər, təzə cəfəri",
+              "ru": "Нежные кусочки говядины, болгарский перец, молодой картофель, копченая паприка, чили, зелень"
+            },
+            "description": {
+              "en": "Thick, rich, and warming paprika beef soup inspired by European tavern comfort food.",
+              "az": "Qatı, zəngin və ədviyyatlı hisə verilmiş qulaş şorbası.",
+              "ru": "Густой, согревающий и ароматный суп с обилием мяса и пряной копченой паприкой."
+            },
+            "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "salads",
+        "name": {
+          "en": "SALADS",
+          "az": "SALATLAR",
+          "ru": "САЛАТЫ"
+        },
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "garage-caesar-chicken",
+            "name": {
+              "en": "Grilled Chicken Caesar",
+              "az": "Toyuqlu Sezar Salatı",
+              "ru": "Цезарь с Цыпленком на Гриле"
+            },
+            "price": 10.5,
+            "weight": "280g",
+            "ingredients": {
+              "en": "Chargrilled chicken breast, romaine lettuce, shaved parmesan, garlic croutons, house anchovy Caesar dressing, cherry tomatoes",
+              "az": "Qril toyuq döş əti, rukkola və aysberq kahısı, parmezan pendiri, sarımsaqlı suxari, xüsusi sezar sousu, çerri pomidoru",
+              "ru": "Куриная грудка гриль, хрустящий салат романо, стружка пармезана, чесночные гренки, соус цезарь с анчоусами, томаты черри"
+            },
+            "description": {
+              "en": "Crisp romaine tossed in classic creamy dressing with smoky chicken and aged parmesan.",
+              "az": "Xırtıldayan kahı, ləzzətli sous və ətirli qril toyuq ilə klassik sezar.",
+              "ru": "Хрустящие салатные листья в фирменной сливочно-анчоусной заправке с теплым филе цыпленка."
+            },
+            "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "warm-beef-salad",
+            "name": {
+              "en": "Warm Teriyaki Beef Salad",
+              "az": "İsti Mal Ətli Salatı",
+              "ru": "Теплый Салат с Говядиной"
+            },
+            "price": 13.0,
+            "weight": "300g",
+            "ingredients": {
+              "en": "Sautéed beef tenderloin strips, mixed baby greens, grilled bell peppers, sesame seeds, teriyaki-ginger glaze",
+              "az": "Qızardılmış can əti tikələri, qarışıq göyərti, qril bibər, küncüt toxumu, teriyaki-zəncəfil sousu",
+              "ru": "Слайсы говяжьей вырезки вок, микс свежих салатов, печеный перец, жареный кунжут, имбирно-терияки глазурь"
+            },
+            "description": {
+              "en": "Tender beef tenderloin seared to perfection over fresh greens with sweet teriyaki dressing.",
+              "az": "Xüsusi sousda qovrulmuş zərif ət və təravətli göyərtilərin harmoniyası.",
+              "ru": "Изысканное сочетание горячей сочной вырезки и хрустящей зелени с азиатскими нотками."
+            },
+            "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "crispy-eggplant-salad",
+            "name": {
+              "en": "Crispy Eggplant & Sweet Chili",
+              "az": "Xırtıldayan Badımcan Salatı",
+              "ru": "Хрустящие Баклажаны со Свит Чили"
+            },
+            "price": 9.5,
+            "weight": "270g",
+            "ingredients": {
+              "en": "Golden battered eggplant chunks, sweet plum tomatoes, fresh cilantro, roasted pine nuts, sweet chili-sesame vinaigrette",
+              "az": "Xırtıldayan badımcan tikələri, sulu pomidor, keşniş, qovrulmuş qoz fındıq, şirin çili sousu",
+              "ru": "Хрустящие ломтики баклажана в легкой панировке, сладкие томаты, свежая кинза, кедровые орешки, соус сладкий чили"
+            },
+            "description": {
+              "en": "Super crunchy tempura eggplants with juicy tomatoes and aromatic cilantro.",
+              "az": "Xırt-xırt qızarmış dadlı badımcan və təzə pomidorların zərif tamı.",
+              "ru": "Невероятно популярное блюдо с тающей текстурой внутри и взрывной хрустящей корочкой."
+            },
+            "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "starters",
+        "name": {
+          "en": "STARTERS & BEER SNACKS",
+          "az": "QƏLYANALTILAR VƏ PİVƏ MƏZƏLƏRİ",
+          "ru": "ЗАКУСКИ К ПИВУ"
+        },
+        "image": "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "buffalo-wings",
+            "name": {
+              "en": "Glazed Buffalo Wings (10 pcs)",
+              "az": "Qlazurlanmış Buffalo Qanadları",
+              "ru": "Крылышки Баффало в Глазури (10 шт)"
+            },
+            "price": 11.0,
+            "weight": "400g",
+            "ingredients": {
+              "en": "Crisp chicken wings, authentic spicy Buffalo butter glaze, celery sticks, blue cheese dip",
+              "az": "Xırtıldayan toyuq qanadları, acılı buffalo sousu, kərəviz çöpləri, mavi pendir dip sousu",
+              "ru": "Хрустящие куриные крылья в пикантной глазури Баффало, соломка свежего сельдерея, соус Блю Чиз"
+            },
+            "description": {
+              "en": "Crispy fried wings drenched in spicy buttery Buffalo sauce with cool blue cheese dip.",
+              "az": "Ədviyyatlı və acı souslu qızardılmış ləzzətli pivə qanadları.",
+              "ru": "Идеальная пабная классика: острые, сочные крылья с бархатистым соусом из благородного сыра."
+            },
+            "image": "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "beer-sampler-platter",
+            "name": {
+              "en": "Garage Mega Beer Platter",
+              "az": "Garage Mega Pivə Boşqabı",
+              "ru": "Большой Гаражный Пивной Сет"
+            },
+            "price": 24.0,
+            "weight": "750g",
+            "ingredients": {
+              "en": "Mozzarella sticks, onion rings, garlic cheese croutons, smoked mini sausages, squid rings, jalapeño poppers, tartar and spicy cocktail dips",
+              "az": "Motsarella çubuqları, soğan halqaları, sarımsaqlı pendirli suxarilər, hisə verilmiş sosislər, kalmar halqaları, xalapeno, souslar",
+              "ru": "Сырные палочки моцарелла, луковые кольца, чесночные гренки с сыром, охотничьи колбаски, кольца кальмара, халапеньо, 2 соуса"
+            },
+            "description": {
+              "en": "An enormous sharing feast featuring the best crispy snacks with multiple artisan dips.",
+              "az": "Dostlarla pivə keyfi üçün ən dadlı və bol çeşidli xüsusi qəlyanaltı dəsti.",
+              "ru": "Огромное ассорти лучших горячих закусок к пенному для компании друзей."
+            },
+            "image": "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "crispy-squid-rings",
+            "name": {
+              "en": "Crispy Calamari Rings",
+              "az": "Xırtıldayan Kalmar Halqaları",
+              "ru": "Кольца Кальмара в Хрустящей Панировке"
+            },
+            "price": 10.0,
+            "weight": "220g",
+            "ingredients": {
+              "en": "Tender squid rings in light panko crumb, lime wedges, house caper tartar sauce",
+              "az": "Panko ununda qızardılmış zərif kalmar halqaları, laym, xüsusi tartar sousu",
+              "ru": "Нежные кольца кальмара в сухарях панко, дольки лайма, домашний соус тартар с каперсами"
+            },
+            "description": {
+              "en": "Golden breaded calamari rings served steaming hot with zesty dip.",
+              "az": "Limonlu və təravətli sous ilə təqdim olunan qızılı dəniz məhsulu qəlyanaltısı.",
+              "ru": "Хрустящие снаружи и мягкие внутри кольца кальмаров с лимонно-укропным соусом."
+            },
+            "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "pasta-garnish",
+        "name": {
+          "en": "PASTA & GARNISH",
+          "az": "PASTA VƏ QARNİRLƏR",
+          "ru": "ПАСТА И ГАРНИРЫ"
+        },
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "fettuccine-alfredo",
+            "name": {
+              "en": "Fettuccine Alfredo with Chicken & Mushrooms",
+              "az": "Toyuq və Göbələkli Fettuçini Alfredo",
+              "ru": "Феттуччине Альфредо с Цыпленком и Грибами"
+            },
+            "price": 12.5,
+            "weight": "360g",
+            "ingredients": {
+              "en": "Egg fettuccine pasta, sautéed chicken strips, fresh button mushrooms, rich parmesan cream sauce, fresh basil",
+              "az": "Fettuçini makaronu, zərif toyuq filesi, şampinyon, parmezan qaymaqlı sous, təzə reyhan",
+              "ru": "Яичная паста феттуччине, нежное куриное филе, шампиньоны, насыщенный сливочный соус с пармезаном, базилик"
+            },
+            "description": {
+              "en": "Silky ribbons of pasta drenched in velvety garlic parmesan cream sauce.",
+              "az": "Qaymaqlı parmezan sousu və göbələklərlə bişirilmiş əsl italyan pastası.",
+              "ru": "Классическая сливочная паста с сочным куриным филе и щедрой порцией тертого сыра."
+            },
+            "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "truffle-parmesan-fries",
+            "name": {
+              "en": "Truffle & Aged Parmesan Fries",
+              "az": "Trüfel və Parmezanlı Kartof Fri",
+              "ru": "Картофель Фри с Трюфелем и Пармезаном"
+            },
+            "price": 7.0,
+            "weight": "250g",
+            "ingredients": {
+              "en": "Crisp skin-on fries, black truffle butter, microplaned parmesan, rosemary salt, garlic aioli",
+              "az": "Xırtıldayan fri kartofu, qara trüfel yağı, parmezan ovuntusu, rozmarinli duz, sarımsaqlı sous",
+              "ru": "Хрустящий картофель, масло черного трюфеля, облако тертого пармезана, розмариновая соль, айоли"
+            },
+            "description": {
+              "en": "Gourmet elevated fries infused with decadent truffle essence and cheese.",
+              "az": "Trüfel və italyan pendirinin lüks ətri ilə zənginləşdirilmiş kartof fri.",
+              "ru": "Ароматный картофель фри ресторанного уровня с благородным трюфельным послевкусием."
+            },
+            "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "grilled-garage-veggies",
+            "name": {
+              "en": "Charred Seasonal Vegetables",
+              "az": "Qril Tərəvəzlər",
+              "ru": "Овощи на Углях"
+            },
+            "price": 6.5,
+            "weight": "240g",
+            "ingredients": {
+              "en": "Zucchini, baby eggplant, sweet bell peppers, cherry tomatoes, portobello mushroom, balsamic glaze",
+              "az": "Kabaçok, badımcan, rəngli bibərlər, çerri pomidor, şampinyon, balzamiko sousu",
+              "ru": "Цукини, молодые баклажаны, сладкий перец, томаты черри, шампиньоны, крем-бальзамик"
+            },
+            "description": {
+              "en": "Smoky char-grilled garden vegetables kissed by live fire.",
+              "az": "Köz üzərində qızardılmış vitaminli və ətirli mövsüm tərəvəzləri.",
+              "ru": "Сочные овощи, приготовленные на открытом огне с дымком и каплей бальзамика."
+            },
+            "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "main-course-poultry",
+        "name": {
+          "en": "MAIN COURSE POULTRY",
+          "az": "ƏSAS YEMƏKLƏR: QUŞ ƏTİ",
+          "ru": "ОСНОВНЫЕ БЛЮДА: ПТИЦА"
+        },
+        "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "tabaka-chicken",
+            "name": {
+              "en": "Crisp Village Chicken Tabaka",
+              "az": "Kənd Çolpası Qızartması (Tabaka)",
+              "ru": "Цыпленок Табака по-деревенски"
+            },
+            "price": 16.0,
+            "weight": "550g",
+            "ingredients": {
+              "en": "Whole pressed baby chicken, clarified garlic butter, Georgian spices, tkemali plum sauce, pickled onions",
+              "az": "Bütöv kənd çolpası, sarımsaqlı kərə yağı, xüsusi ədviyyatlar, alça tkemali sousu, turşuya qoyulmuş soğan",
+              "ru": "Целый фермерский цыпленок под гнетом, чесночное топленое масло, кавказские травы, соус ткемали, маринованный лук"
+            },
+            "description": {
+              "en": "Golden crisp pressed whole baby chicken seared under heavy cast iron with garlic aroma.",
+              "az": "Ağır çuqun tava altında xırtıldayana qədər qızardılmış sarımsaq ətirli ləzzətli kənd çolpası.",
+              "ru": "Хрустящая румяная корочка и сочнейшее мясо внутри — подается с пикантным сливовым соусом."
+            },
+            "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "chicken-schnitzel",
+            "name": {
+              "en": "Garage Giant Chicken Schnitzel",
+              "az": "Nəhəng Toyuq Şniseli",
+              "ru": "Гигантский Куриный Шницель"
+            },
+            "price": 13.5,
+            "weight": "420g",
+            "ingredients": {
+              "en": "Pounded tender chicken breast, crispy golden breadcrumbs, lemon-parsley compound butter, German potato salad",
+              "az": "Döyülmüş yumşaq toyuq əti, xırtıldayan suxari, kərə yağı, limon, xüsusi alman kartof salatı",
+              "ru": "Отбивная куриная грудка в золотистой хрустящей корочке, пряное лимонное масло, теплый картофельный гарнир"
+            },
+            "description": {
+              "en": "Crisp Bavarian style breaded chicken cutlet with melted herb butter.",
+              "az": "Qızılı və xırt-xırt örtüklü, böyük porsiyalı avropa sayağı şnisel.",
+              "ru": "Огромный хрустящий шницель по классическому баварскому рецепту."
+            },
+            "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "main-course-seafood",
+        "name": {
+          "en": "MAIN COURSE SEA FOOD",
+          "az": "ƏSAS YEMƏKLƏR: DƏNİZ MƏHSULLARI",
+          "ru": "ОСНОВНЫЕ БЛЮДА: РЫБА И МОРЕПРОДУКТЫ"
+        },
+        "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "grilled-norwegian-salmon",
+            "name": {
+              "en": "Charred Norwegian Salmon Steak",
+              "az": "Qril Qızılbalıq Steyki",
+              "ru": "Стейк из Норвежского Лосося"
+            },
+            "price": 22.0,
+            "weight": "320g",
+            "ingredients": {
+              "en": "Fresh Atlantic salmon steak, grilled asparagus, lemon cream dill reduction, pomegranate molasses drops",
+              "az": "Təzə qızılbalıq steyki, qril qulançar, şüyüdlü limonlu qaymaq sousu, narşərab damcıları",
+              "ru": "Филе атлантического лосося на гриле, молодая спаржа, сливочно-укропный соус с лимоном, наршараб"
+            },
+            "description": {
+              "en": "Flame-grilled succulent salmon with silky asparagus and citrus sauce.",
+              "az": "Alovda bişmiş şirəli qızılbalıq və zərif qulançarla kral yeməyi.",
+              "ru": "Нежнейший стейк лосося с аппетитными полосками от гриля и тонким цитрусовым ароматом."
+            },
+            "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "tiger-prawns-garlic-butter",
+            "name": {
+              "en": "Jumbo Tiger Prawns in Garlic Chili Butter",
+              "az": "Sarımsaqlı Acı Kərə Yağında Tiqr Krevetləri",
+              "ru": "Тигровые Креветки в Чесночно-Чили Масле"
+            },
+            "price": 19.5,
+            "weight": "300g",
+            "ingredients": {
+              "en": "King tiger prawns, toasted garlic, bird's eye chili, fresh coriander, grilled crusty sourdough bread",
+              "az": "Böyük tiqr krevetləri, qovrulmuş sarımsaq, acı bibər, təzə keşniş, qızardılmış təbii çörək",
+              "ru": "Крупные тигровые креветки, обжаренный чеснок, перчик чили, кинза, ломти хрустящего подового хлеба"
+            },
+            "description": {
+              "en": "Plump ocean prawns sizzling in smoking hot garlic butter ready for bread dipping.",
+              "az": "Cızıldayan qaynar kərə yağında bişirilmiş möhtəşəm dəniz krevetləri.",
+              "ru": "Ароматные шипящие креветки в пикантном масле, в которое так вкусно макать свежий хлеб."
+            },
+            "image": "https://images.unsplash.com/photo-1559742811-82286364ceaf?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "main-course-meat",
+        "name": {
+          "en": "MAIN COURSE MEAT",
+          "az": "ƏSAS YEMƏKLƏR: ƏT",
+          "ru": "ОСНОВНЫЕ БЛЮДА: МЯСО"
+        },
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "ribeye-steak",
+            "name": {
+              "en": "Prime Ribeye Steak (350g)",
+              "az": "Ribay Steyk (350q)",
+              "ru": "Рибай Стейк Прайм (350г)"
+            },
+            "price": 28.0,
+            "weight": "350g",
+            "ingredients": {
+              "en": "Marbled beef ribeye, roasted garlic head, smoked rosemary sprig, green peppercorn cognac sauce, Maldon sea salt",
+              "az": "Mərmər mal əti steyki, sobada bişmiş sarımsaq, hisə verilmiş rozmarin, konyaklı yaşıl istiot sousu, dəniz duzu",
+              "ru": "Мраморная говядина зернового откорма, запеченный чеснок, веточка розмарина, перечный соус на коньяке, соль Maldon"
+            },
+            "description": {
+              "en": "Richly marbled beef steak grilled medium rare over oak embers with cracked peppercorn sauce.",
+              "az": "Palıd kömüründə istədiyiniz dərəcədə qızardılmış şirəli mərmər ət steyki.",
+              "ru": "Сочный стейк с великолепной мраморностью, обжаренный на дубовых углях до идеальной прожарки."
+            },
+            "image": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "garage-bbq-ribs",
+            "name": {
+              "en": "Sticky Bourbon Glazed Pork Ribs",
+              "az": "Burbon Qlazurlu Qabırğalar",
+              "ru": "Свиные Ребрышки в Глазури из Бурбона"
+            },
+            "price": 21.0,
+            "weight": "550g",
+            "ingredients": {
+              "en": "Slow-smoked tender rack of ribs, Kentucky bourbon glaze, creamy apple coleslaw, pickled red chili",
+              "az": "Təndirdə yumşaldılmış qabırğalar, xüsusi Kentukki burbon sousu, kələm koleslou salatı, acı bibər",
+              "ru": "Томленые до нежности ребрышки, карамельная глазурь на бурбоне, хрустящий коулслоу, перчик"
+            },
+            "description": {
+              "en": "Fall-off-the-bone tender smoked ribs coated in rich sweet & smoky whiskey glaze.",
+              "az": "Sümükdən ayrılan yumşaq və hisə verilmiş doyumlu qabırğalar.",
+              "ru": "Мясо буквально тает и само отделяется от кости, покрытое густой пряной глазурью."
+            },
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "baku-lamb-kebab-platter",
+            "name": {
+              "en": "Lula & Lamb Chop Kebab Platter",
+              "az": "Lülə və Quzu Antrikot Kabab Dəsti",
+              "ru": "Шашлычный Сет: Люля и Баранья Корейка"
+            },
+            "price": 23.5,
+            "weight": "480g",
+            "ingredients": {
+              "en": "Minced lamb lula kebab, juicy lamb cutlets, sumac red onions, grilled hot peppers and tomatoes, warm lavash",
+              "az": "Quzu ətindən lülə kabab, quzu antrikotu, sumaxlı qırmızı soğan, köz bibər və pomidor, təndir lavaşı",
+              "ru": "Нежнейший люля-кебаб из молодого ягненка, сочные бараньи ребра, лук с сумахом, томаты и перец гриль, лаваш"
+            },
+            "description": {
+              "en": "Authentic coal-fired succulent lamb kebabs served on traditional flatbread.",
+              "az": "Köz üstündə bişən ətirli lülə və antrikot kabablar isti lavaş üzərində.",
+              "ru": "Настоящий кавказский шашлык с пылу с жару на свежем хрустящем лаваше."
+            },
+            "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "desserts-hot-drinks",
+        "name": {
+          "en": "DESSERTS & HOT DRINKS",
+          "az": "DESERTLƏR VƏ İSTİ İÇKİLƏR",
+          "ru": "ДЕСЕРТЫ И ГОРЯЧИЕ НАПИТКИ"
+        },
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "molten-chocolate-fondant",
+            "name": {
+              "en": "Warm Belgian Chocolate Lava Cake",
+              "az": "İsti Şokoladlı Vulkan (Fondant)",
+              "ru": "Шоколадный Фондан с Лавой"
+            },
+            "price": 8.5,
+            "weight": "190g",
+            "ingredients": {
+              "en": "70% dark Belgian chocolate cake, flowing hot chocolate center, Madagascar vanilla ice cream, mint leaf",
+              "az": "70% Belçika şokoladlı keks, içindən axan isti şokolad, vanilli dondurma, nanə",
+              "ru": "Французский десерт из темного бельгийского шоколада с жидким горячим центром и шариком пломбира"
+            },
+            "description": {
+              "en": "Decadent dark chocolate soufflé cake with molten center and freezing cold vanilla ice cream.",
+              "az": "İsti axan şokolad və buz kimi vanilli dondurmanın unudulmaz təzadı.",
+              "ru": "Контраст обжигающего шоколадного крема внутри и тающего прохладного мороженого."
+            },
+            "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "traditional-baku-tea-set",
+            "name": {
+              "en": "Azerbaijani Samovar Tea Ceremony",
+              "az": "Samovar Çayı və Mürəbbə Dəsti",
+              "ru": "Бакинское Чайное Застолье с Вареньем"
+            },
+            "price": 12.0,
+            "weight": "Pot / Armudu",
+            "ingredients": {
+              "en": "Lankaran black tea brewed with wild thyme (kəklikotu), walnut jam, white cherry jam, lemon, Turkish delight",
+              "az": "Kəklikotulu Lənkəran qara çayı, qoz mürəbbəsi, ağ gilas mürəbbəsi, limon, şirniyyat",
+              "ru": "Настоящий ленкоранский чай с горным чабрецом, ореховое варенье, варенье из белой черешни, лимон, лукум"
+            },
+            "description": {
+              "en": "Fragrant traditional tea served in iconic pear-shaped armudu glasses with homemade preserves.",
+              "az": "Armudu stəkanda ətirli kəklikotu və zəngin milli mürəbbələrlə süfrə bəzəyi.",
+              "ru": "Душевное восточное чаепитие с целебным чабрецом и знаменитыми бакинскими вареньями."
+            },
+            "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "irish-pub-coffee",
+            "name": {
+              "en": "Garage Irish Whiskey Coffee",
+              "az": "İrlandiya Qəhvəsi",
+              "ru": "Ирландский Кофе с Виски"
+            },
+            "price": 9.0,
+            "weight": "240ml",
+            "ingredients": {
+              "en": "Fresh espresso, Jameson Irish whiskey, brown cane sugar, thick floating cold cream layer, grated nutmeg",
+              "az": "Espresso qəhvəsi, Jameson İrlandiya viskisi, qəhvəyi qamış şəkəri, qalın qaymaq qatı, muskat cevizi",
+              "ru": "Свежесваренный эспрессо, ирландский виски Jameson, тростниковый сахар, густые холодные сливки"
+            },
+            "description": {
+              "en": "Warming blend of dark roast coffee and smooth Irish whiskey topped with cream.",
+              "az": "Tünd qəhvə və viskinin qaymaqla birləşdiyi əfsanəvi isti içki.",
+              "ru": "Легендарный согревающий напиток с мягким хмельным послевкусием под шапкой сливок."
+            },
+            "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      }
+    ]
+  },
+  "bar": {
+    "title": {
+      "en": "BAR",
+      "az": "BAR",
+      "ru": "БАР"
+    },
+    "categories": [
+      {
+        "id": "draft-beer",
+        "name": {
+          "en": "Draft Beer",
+          "az": "Çəllək Pivəsi",
+          "ru": "Разливное Пиво"
+        },
+        "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "guinness-draught",
+            "name": {
+              "en": "Guinness Extra Stout (0.5L)",
+              "az": "Guinness Extra Stout (0.5L)",
+              "ru": "Guinness Extra Stout (0.5л)"
+            },
+            "price": 10.0,
+            "volume": "0.5 L",
+            "abv": "4.2%",
+            "description": {
+              "en": "Iconic Irish stout with velvety creamy head, roasted barley bitterness, and dark chocolate notes.",
+              "az": "Məxməri köpüyü, qovrulmuş arpa və tünd şokolad çalarları ilə əfsanəvi irland stout pivəsi.",
+              "ru": "Легендарный ирландский темный стаут с плотной кремовой пенкой и нотами жженого солода."
+            },
+            "image": "https://images.unsplash.com/photo-1567696911980-2eed69a46042?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "paulaner-weissbier",
+            "name": {
+              "en": "Paulaner Hefe-Weißbier (0.5L)",
+              "az": "Paulaner Hefe-Weißbier (0.5L)",
+              "ru": "Paulaner Hefe-Weißbier (0.5л)"
+            },
+            "price": 8.5,
+            "volume": "0.5 L",
+            "abv": "5.5%",
+            "description": {
+              "en": "Unfiltered Munich wheat beer with sparkling effervescence, banana aroma, and clove hints.",
+              "az": "Banan və mixək ətirli, süzülməmiş təravətləndirici məşhur Münhen buğda pivəsi.",
+              "ru": "Классическое нефильтрованное пшеничное пиво из Мюнхена с фруктовыми нотками банана и гвоздики."
+            },
+            "image": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "khirdalan-draft",
+            "name": {
+              "en": "Khirdalan Classic Draft (0.5L)",
+              "az": "Xırdalan Klassik Çəllək (0.5L)",
+              "ru": "Хырдалан Классическое (0.5л)"
+            },
+            "price": 4.5,
+            "volume": "0.5 L",
+            "abv": "4.8%",
+            "description": {
+              "en": "Crisp local golden lager, smooth malt profile, clean refreshing finish on tap.",
+              "az": "Yerli ənənəvi qızılı laqer, yüngül maye və təravətli dad.",
+              "ru": "Светлый золотистый лагер с мягким солодовым вкусом и освежающей горчинкой."
+            },
+            "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "bottled-beer-cider",
+        "name": {
+          "en": "Bottled Beer & Cider",
+          "az": "Şüşə Pivə və Sidr",
+          "ru": "Бутылочное Пиво и Сидр"
+        },
+        "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "corona-extra",
+            "name": {
+              "en": "Corona Extra (0.33L)",
+              "az": "Corona Extra (0.33L)",
+              "ru": "Corona Extra (0.33л)"
+            },
+            "price": 7.0,
+            "volume": "0.33 L",
+            "abv": "4.5%",
+            "description": {
+              "en": "World-famous Mexican light beer served with a wedge of fresh lime.",
+              "az": "Təzə laym dilimi ilə təqdim olunan yüngül və sərinləşdirici meksika pivəsi.",
+              "ru": "Освежающее мексиканское пиво, подается ледяным со свежим лаймом."
+            },
+            "image": "https://images.unsplash.com/photo-1584225064785-c62a8b43d148?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "magners-irish-cider",
+            "name": {
+              "en": "Magners Original Irish Cider (0.5L)",
+              "az": "Magners Orijinal İrlandiya Sidri (0.5L)",
+              "ru": "Magners Ирландский Сидр (0.5л)"
+            },
+            "price": 8.0,
+            "volume": "0.5 L",
+            "abv": "4.5%",
+            "description": {
+              "en": "Crisp refreshing apple cider fermented with 17 varieties of Irish apples served over ice.",
+              "az": "17 növ irland almasından hazırlanmış, buzla təqdim olunan xırtıldayan sidr.",
+              "ru": "Натуральный яблочный сидр из Ирландии, идеален со льдом в жаркий вечер."
+            },
+            "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "whiskey",
+        "name": {
+          "en": "Whiskey",
+          "az": "Viski",
+          "ru": "Виски"
+        },
+        "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "jameson-irish",
+            "name": {
+              "en": "Jameson Irish Triple Distilled (50ml)",
+              "az": "Jameson İrlandiya Viskisi (50ml)",
+              "ru": "Jameson Triple Distilled (50мл)"
+            },
+            "price": 8.0,
+            "volume": "50 ml",
+            "abv": "40%",
+            "description": {
+              "en": "Triple distilled smooth Irish whiskey with floral fragrance and toasted wood notes.",
+              "az": "Üçqat distillə edilmiş, meşə və vanil notları ilə yumşaq irland viskisi.",
+              "ru": "Тройная дистилляция, непревзойденная мягкость, ноты ванили и поджаренного дуба."
+            },
+            "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "jack-daniels-no7",
+            "name": {
+              "en": "Jack Daniel's Old No. 7 (50ml)",
+              "az": "Jack Daniel's Old No. 7 (50ml)",
+              "ru": "Jack Daniel's Old No. 7 (50мл)"
+            },
+            "price": 9.0,
+            "volume": "50 ml",
+            "abv": "40%",
+            "description": {
+              "en": "Tennessee sour mash whiskey charcoal-mellowed drop by drop with sweet caramel and oak.",
+              "az": "Ağcaqayın kömüründən süzülmüş, karamel və palıd ətirli məşhur tennesi viskisi.",
+              "ru": "Знаменитый виски из Теннесси, фильтрованный через кленовый уголь, с нотами карамели и дыма."
+            },
+            "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "macallan-12",
+            "name": {
+              "en": "The Macallan 12 Double Cask (50ml)",
+              "az": "The Macallan 12 Double Cask (50ml)",
+              "ru": "The Macallan 12 Double Cask (50мл)"
+            },
+            "price": 18.0,
+            "volume": "50 ml",
+            "abv": "40%",
+            "description": {
+              "en": "Prestigious Highland single malt aged in American and European sherry oak casks with butterscotch and citrus notes.",
+              "az": "Sherry çəlləklərində 12 il saxlanılmış şotland tək səməni premium viskisi.",
+              "ru": "Премиальный шотландский односолодовый виски с богатым вкусом ириса, цукатов и специй."
+            },
+            "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "cognac",
+        "name": {
+          "en": "Cognac",
+          "az": "Konyak",
+          "ru": "Коньяк"
+        },
+        "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "hennessy-vs",
+            "name": {
+              "en": "Hennessy V.S (50ml)",
+              "az": "Hennessy V.S (50ml)",
+              "ru": "Hennessy V.S (50мл)"
+            },
+            "price": 12.0,
+            "volume": "50 ml",
+            "abv": "40%",
+            "description": {
+              "en": "Bold, fragrant French cognac with vibrant toasted oak, almond, and fresh grape aromas.",
+              "az": "Fransız palıd çəlləklərində yetişdirilmiş, badam və təzə üzüm ətirli klassik konyak.",
+              "ru": "Культовый французский коньяк с ярким характером, тонами жареного миндаля и винограда."
+            },
+            "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "remy-martin-vsop",
+            "name": {
+              "en": "Rémy Martin VSOP (50ml)",
+              "az": "Rémy Martin VSOP (50ml)",
+              "ru": "Rémy Martin VSOP (50мл)"
+            },
+            "price": 16.0,
+            "volume": "50 ml",
+            "abv": "40%",
+            "description": {
+              "en": "Cognac Fine Champagne with luscious ripe apricot, violet floral hints, and silk vanilla finish.",
+              "az": "Qurudulmuş ərik və bənövşə çalarları ilə zəngin füsunkar fransız konyakı.",
+              "ru": "Превосходный коньяк из региона Fine Champagne с округлым вкусом спелых фруктов и ванили."
+            },
+            "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "rum",
+        "name": {
+          "en": "Rum",
+          "az": "Rom",
+          "ru": "Ром"
+        },
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "captain-morgan-spiced",
+            "name": {
+              "en": "Captain Morgan Original Spiced Gold (50ml)",
+              "az": "Captain Morgan Spiced Gold (50ml)",
+              "ru": "Captain Morgan Spiced Gold (50мл)"
+            },
+            "price": 7.5,
+            "volume": "50 ml",
+            "abv": "35%",
+            "description": {
+              "en": "Caribbean rum blended with secret spices and natural flavours of vanilla and cinnamon.",
+              "az": "Karib dənizi ədviyyatları və təbii vanil ilə zənginləşdirilmiş qızılı rom.",
+              "ru": "Карибский пряный ром с согревающими оттенками ванили, корицы и мускатного ореха."
+            },
+            "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "bacardi-carta-blanca",
+            "name": {
+              "en": "Bacardí Carta Blanca (50ml)",
+              "az": "Bacardí Carta Blanca (50ml)",
+              "ru": "Bacardí Carta Blanca (50мл)"
+            },
+            "price": 7.0,
+            "volume": "50 ml",
+            "abv": "37.5%",
+            "description": {
+              "en": "Classic white rum crafted in white oak barrels, crisp with notes of almond and fruit.",
+              "az": "Kokteyllər üçün əvəzolunmaz təmiz və meyvə ətirli ağ rom.",
+              "ru": "Белый выдержанный ром, идеальная основа для классических коктейлей."
+            },
+            "image": "https://images.unsplash.com/photo-1560512823-829485b8bf24?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "gin",
+        "name": {
+          "en": "Gin",
+          "az": "Cin",
+          "ru": "Джин"
+        },
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "bombay-sapphire",
+            "name": {
+              "en": "Bombay Sapphire London Dry (50ml)",
+              "az": "Bombay Sapphire London Dry (50ml)",
+              "ru": "Bombay Sapphire London Dry (50мл)"
+            },
+            "price": 8.5,
+            "volume": "50 ml",
+            "abv": "47%",
+            "description": {
+              "en": "Vapour-infused gin with 10 exotic botanicals including juniper, coriander, and grains of paradise.",
+              "az": "10 nadir bitki ekstraktı və ardıc toxumu ilə hazırlanmış London quru cini.",
+              "ru": "Утонченный сухой джин с ярким букетом можжевельника, цитрусов и кориандра."
+            },
+            "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "hendricks-gin",
+            "name": {
+              "en": "Hendrick's Gin (50ml)",
+              "az": "Hendrick's Cin (50ml)",
+              "ru": "Hendrick's Gin (50мл)"
+            },
+            "price": 12.0,
+            "volume": "50 ml",
+            "abv": "41.4%",
+            "description": {
+              "en": "Small batch Scottish gin infused with cucumber essence and Bulgarian rose petals.",
+              "az": "Xiyar və qızılgül ləçəkləri ilə dəmlənmiş şotland premium cini.",
+              "ru": "Шотландский крафтовый джин с непревзойденным ароматом огурца и дамасской розы."
+            },
+            "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "vermouth",
+        "name": {
+          "en": "Vermouth",
+          "az": "Vermut",
+          "ru": "Вермут"
+        },
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "martini-bianco",
+            "name": {
+              "en": "Martini Bianco (80ml)",
+              "az": "Martini Bianco (80ml)",
+              "ru": "Martini Bianco (80мл)"
+            },
+            "price": 7.0,
+            "volume": "80 ml",
+            "abv": "15%",
+            "description": {
+              "en": "Sweet Italian vermouth infused with herbs, vanilla, and sweet floral botanicals.",
+              "az": "Otlar və vanil ilə zənginləşdirilmiş şirin italyan ağ vermutu.",
+              "ru": "Итальянский вермут со сладковатым ванильным ароматом и деликатной травяной горчинкой."
+            },
+            "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "martini-rosso",
+            "name": {
+              "en": "Martini Rosso (80ml)",
+              "az": "Martini Rosso (80ml)",
+              "ru": "Martini Rosso (80мл)"
+            },
+            "price": 7.0,
+            "volume": "80 ml",
+            "abv": "15%",
+            "description": {
+              "en": "Red Italian vermouth with rich caramel, balanced bitterness, and fragrant botanicals.",
+              "az": "Qırmızı kəhrəba rəngli, karamel və yovşan ətirli italyan vermutu.",
+              "ru": "Красный пряный вермут с глубоким карамельным оттенком и легкой полынной терпкостью."
+            },
+            "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "wine-prosecco",
+        "name": {
+          "en": "Wine & Prosecco",
+          "az": "Şərab və Prosecco",
+          "ru": "Вино и Просекко"
+        },
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "valdobbiadene-prosecco",
+            "name": {
+              "en": "Prosecco Superiore DOCG (Glass / 150ml)",
+              "az": "Prosecco Superiore DOCG (Qədəh / 150ml)",
+              "ru": "Prosecco Superiore DOCG (Бокал / 150мл)"
+            },
+            "price": 11.0,
+            "volume": "150 ml",
+            "abv": "11.5%",
+            "description": {
+              "en": "Crisp sparkling Italian wine from Veneto with fine bubbles, green apple, and white peach.",
+              "az": "Veneto bölgəsindən yaşıl alma və ağ şaftalı notları ilə köpüklü italyan şərabı.",
+              "ru": "Итальянское игристое с тонким перляжем, свежестью зеленого яблока и белых цветов."
+            },
+            "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "meysari-red-reserve",
+            "name": {
+              "en": "Meysari Makhmari Organic Red (Glass / 150ml)",
+              "az": "Meysəri Məxməri Qırmızı (Qədəh / 150ml)",
+              "ru": "Meysari Makhmari Органическое Красное (Бокал / 150мл)"
+            },
+            "price": 9.5,
+            "volume": "150 ml",
+            "abv": "13.5%",
+            "description": {
+              "en": "Premium organic red wine from Shamakhi, Azerbaijan with blackberries, plums, and soft velvety tannins.",
+              "az": "Şamaxı üzümlüklərindən meşə giləmeyvələri və məxməri tamı ilə yerli premium qırmızı şərab.",
+              "ru": "Органическое сухое красное вино из Шамахи с бархатистыми танинами и нотами черных ягод."
+            },
+            "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "liqueurs-bitters",
+        "name": {
+          "en": "Liqueurs & Bitters",
+          "az": "Likörlər və Bitterlər",
+          "ru": "Ликеры и Биттеры"
+        },
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "jagermeister",
+            "name": {
+              "en": "Jägermeister Ice Cold Shot (50ml)",
+              "az": "Jägermeister Buzlu Şot (50ml)",
+              "ru": "Jägermeister Ледяной Шот (50мл)"
+            },
+            "price": 7.5,
+            "volume": "50 ml",
+            "abv": "35%",
+            "description": {
+              "en": "Legendary German herbal digestif blended from 56 herbs, roots, and spices, served at -18°C.",
+              "az": "56 müxtəlif müalicəvi bitkidən hazırlanmış, -18°C temperaturda təqdim olunan alman bitkisel likörü.",
+              "ru": "Культовый немецкий травяной ликер из 56 компонентов, подается обжигающе ледяным."
+            },
+            "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "baileys-original",
+            "name": {
+              "en": "Baileys Original Irish Cream (50ml)",
+              "az": "Baileys İrlandiya Qaymaqlı Likörü (50ml)",
+              "ru": "Baileys Original Irish Cream (50мл)"
+            },
+            "price": 7.0,
+            "volume": "50 ml",
+            "abv": "17%",
+            "description": {
+              "en": "Decadent harmony of real Irish dairy cream, aged Irish whiskey, and rich cocoa.",
+              "az": "Həqiqi irland süd qaymağı və viskinin şokoladla vəhdəti.",
+              "ru": "Бархатистый сливочный ликер на основе отборного ирландского виски и какао."
+            },
+            "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "other-spirits",
+        "name": {
+          "en": "Other Spirits & Tequila",
+          "az": "Digər Spirtli İçkilər və Tekila",
+          "ru": "Другие Крепкие Напитки и Текила"
+        },
+        "image": "https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "olmeca-silver-tequila",
+            "name": {
+              "en": "Olmeca Tequila Silver (50ml)",
+              "az": "Olmeca Silver Tekila (50ml)",
+              "ru": "Olmeca Tequila Silver (50мл)"
+            },
+            "price": 7.5,
+            "volume": "50 ml",
+            "abv": "38%",
+            "description": {
+              "en": "Mexican blue agave tequila served with sea salt and fresh lime wedge.",
+              "az": "Dəniz duzu və təzə laym ilə servis olunan mavi aqava meksika tekilası.",
+              "ru": "Мексиканская текила из голубой агавы, подается с солью и долькой лайма."
+            },
+            "image": "https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "absolut-vodka",
+            "name": {
+              "en": "Absolut Vodka Blue (50ml)",
+              "az": "Absolut Vodka (50ml)",
+              "ru": "Absolut Vodka (50мл)"
+            },
+            "price": 6.5,
+            "volume": "50 ml",
+            "abv": "40%",
+            "description": {
+              "en": "Swedish winter wheat vodka continuously distilled for exceptional purity and crisp taste.",
+              "az": "İsveç qış buğdasından distillə edilmiş xüsusi saflıqda premium araq.",
+              "ru": "Шведская премиальная водка из озимой пшеницы с кристально чистым вкусом."
+            },
+            "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      },
+      {
+        "id": "soft-drinks",
+        "name": {
+          "en": "Soft Drinks",
+          "az": "Alkoqolsuz İçkilər",
+          "ru": "Безалкогольные Напитки"
+        },
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {
+            "id": "red-bull-energy",
+            "name": {
+              "en": "Red Bull Energy Drink (250ml)",
+              "az": "Red Bull Enerji İçkisi (250ml)",
+              "ru": "Red Bull Энергетик (250мл)"
+            },
+            "price": 6.0,
+            "volume": "250 ml",
+            "description": {
+              "en": "Original revitalizing energy drink served ice-cold.",
+              "az": "Buz kimi sərinləşdirici orijinal enerji içkisi.",
+              "ru": "Бодрящий энергетический напиток, подается ледяным."
+            },
+            "image": "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "coca-cola-glass",
+            "name": {
+              "en": "Coca-Cola Classic (330ml Glass)",
+              "az": "Coca-Cola Şüşə (330ml)",
+              "ru": "Coca-Cola в Стекле (330мл)"
+            },
+            "price": 4.0,
+            "volume": "330 ml",
+            "description": {
+              "en": "Ice-cold Coca-Cola in vintage glass bottle served with lemon and ice.",
+              "az": "Limon və buz ilə təqdim olunan klassik şüşə qablaşdırmada kola.",
+              "ru": "Ледяная кола в классической стеклянной бутылке с лимоном и кубиками льда."
+            },
+            "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=1000&q=80"
+          },
+          {
+            "id": "sirab-premium-water",
+            "name": {
+              "en": "Sirab Premium Mineral Water (Sparkling / Still 0.5L)",
+              "az": "Sirab Premium Mineral Su (Qazlı / Qazsız 0.5L)",
+              "ru": "Sirab Премиум Минеральная Вода (0.5л)"
+            },
+            "price": 3.5,
+            "volume": "0.5 L",
+            "description": {
+              "en": "Natural mineral mountain spring water from Nakhchivan.",
+              "az": "Naxçıvan dağlarının təbii və saf mineral bulaq suyu.",
+              "ru": "Природная минеральная вода из высокогорных источников Нахчывана."
+            },
+            "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=1000&q=80"
+          }
+        ]
+      }
+    ]
+  }
+}

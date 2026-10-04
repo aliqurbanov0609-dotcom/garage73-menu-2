@@ -1,0 +1,6 @@
+{
+  "name": "GARAGE 73 PUB - QR Menu",
+  "description": "Interactive neon QR menu for GARAGE 73 PUB with multi-language support (AZ, EN, RU), kitchen and bar sections, and animated transitions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

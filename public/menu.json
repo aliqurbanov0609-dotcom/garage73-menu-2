@@ -1,0 +1,330 @@
+{
+  "kitchen": {
+    "title": {"en": "KITCHEN", "az": "MƏTBƏX", "ru": "КУХНЯ"},
+    "categories": [
+      {
+        "id": "sandwiches-breakfast",
+        "name": {"en": "SANDWICHES & BREAKFAST", "az": "SENDVİÇLƏR VƏ SƏHƏR YEMƏYİ", "ru": "СЭНДВИЧИ И ЗАВТРАКИ"},
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {"id": "full-english", "name": {"en": "Full English Breakfast", "az": "İngilis Səhər Yeməyi", "ru": "Полный английский завтрак"}, "price": 16, "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&q=80", "description": {"en": "Hearty pub breakfast", "az": "Doyumlu səhər yeməyi", "ru": "Сытный завтрак"}},
+          {"id": "omelette", "name": {"en": "Omelette", "az": "Omlet", "ru": "Омлет"}, "price": 9, "image": "https://images.unsplash.com/photo-1510627489930-0c1b0ba003e9?w=600&q=80", "description": {"en": "Classic omelette", "az": "Klassik omlet", "ru": "Классический омлет"}},
+          {"id": "hamburger", "name": {"en": "Hamburger", "az": "Hamburqer", "ru": "Гамбургер"}, "price": 13, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80", "description": {"en": "Juicy beef burger", "az": "Şirəli burger", "ru": "Сочный бургер"}},
+          {"id": "chicken-burger", "name": {"en": "Chicken Burger", "az": "Toyuq Burger", "ru": "Чикен Бургер"}, "price": 12, "image": "https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?w=600&q=80", "description": {"en": "Crispy chicken burger", "az": "Xırtıldayan toyuq burger", "ru": "Хрустящий чикен бургер"}},
+          {"id": "chicken-breast-sandwich", "name": {"en": "Chicken Breast Sandwich", "az": "Toyuq Sendviçi", "ru": "Сэндвич с куриной грудкой"}, "price": 13, "image": "https://images.unsplash.com/photo-1567234665766-cd1247ab4443?w=600&q=80", "description": {"en": "Grilled chicken sandwich", "az": "Qril toyuq sendviçi", "ru": "Сэндвич с курицей гриль"}},
+          {"id": "club-sandwich", "name": {"en": "Club Sandwich", "az": "Klub Sendviç", "ru": "Клаб-сэндвич"}, "price": 15, "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&q=80", "description": {"en": "Classic club sandwich", "az": "Klassik klub sendviç", "ru": "Классический клаб-сэндвич"}},
+          {"id": "steak-sandwich", "name": {"en": "Steak Sandwich", "az": "Steyk Sendviç", "ru": "Сэндвич со стейком"}, "price": 15, "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=600&q=80", "description": {"en": "Hearty steak sandwich", "az": "Doyumlu steyk sendviçi", "ru": "Сытный сэндвич со стейком"}},
+          {"id": "fish-sandwich", "name": {"en": "Fish Sandwich", "az": "Balıq Sendviçi", "ru": "Сэндвич с рыбой"}, "price": 13, "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80", "description": {"en": "Crispy fish sandwich", "az": "Xırtıldayan balıq sendviçi", "ru": "Рыбный сэндвич"}},
+          {"id": "toast-sandwich", "name": {"en": "Toast Sandwich", "az": "Tost Sendviç", "ru": "Тост сэндвич"}, "price": 8, "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&q=80", "description": {"en": "Golden toast sandwich", "az": "Qızılı tost sendviç", "ru": "Золотистый тост"}},
+          {"id": "hot-dog", "name": {"en": "Chili Cheese Hot Dog", "az": "Çili Pendirli Hot Doq", "ru": "Чили чиз хот-дог"}, "price": 6, "image": "https://images.unsplash.com/photo-1541214113241-21578d2d9b62?w=600&q=80", "description": {"en": "Spicy chili cheese dog", "az": "Acılı pendirli hot doq", "ru": "Острый хот-дог с чили и сыром"}},
+          {"id": "ala-mexicana", "name": {"en": "Ala Mexicana Sandwich", "az": "Meksika Sayağı Sendviç", "ru": "Сэндвич по-мексикански"}, "price": 13, "image": "https://images.unsplash.com/photo-1612182062633-9ff3b3598e96?w=600&q=80", "description": {"en": "Spicy Mexican sandwich", "az": "Acılı meksika sendviçi", "ru": "Острый мексиканский сэндвич"}},
+          {"id": "mix-salami", "name": {"en": "Mix Salami Sandwich", "az": "Mix Salami Sendviç", "ru": "Сэндвич с микс салями"}, "price": 15, "image": "https://images.unsplash.com/photo-1539252554454-31d626304679?w=600&q=80", "description": {"en": "Rich salami sandwich", "az": "Bol salamili sendviç", "ru": "Сэндвич с салями"}},
+          {"id": "smoked-beef", "name": {"en": "Smoked Beef Sandwich", "az": "Hisə Verilmiş Ət Sendviçi", "ru": "Сэндвич с копченой говядиной"}, "price": 12, "image": "https://images.unsplash.com/photo-1547050605-2f268cd5e399?w=600&q=80", "description": {"en": "Smoky beef sandwich", "az": "Tüstülü ət sendviçi", "ru": "Копченая говядина"}},
+          {"id": "smoked-turkey", "name": {"en": "Smoked Turkey Sandwich", "az": "Hisə Verilmiş Toyuq Sendviçi", "ru": "Сэндвич с копченой индейкой"}, "price": 12, "image": "https://images.unsplash.com/photo-1509722747041-619f3936833a?w=600&q=80", "description": {"en": "Lean smoked turkey", "az": "Yağsız hisə verilmiş toyuq", "ru": "Копченая индейка"}},
+          {"id": "smoked-salmon-sandwich", "name": {"en": "Smoked Salmon Sandwich", "az": "Qızılbalıq Sendviçi", "ru": "Сэндвич с копченым лососем"}, "price": 15, "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80", "description": {"en": "Fresh salmon sandwich", "az": "Təzə qızılbalıq sendviçi", "ru": "Сэндвич с лососем"}},
+          {"id": "bacon-roll", "name": {"en": "Bacon Roll", "az": "Bekon Roll", "ru": "Ролл с беконом"}, "price": 7, "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&q=80", "description": {"en": "Crispy bacon roll", "az": "Xırtıldayan bekon roll", "ru": "Ролл с беконом"}},
+          {"id": "liver-onion-roll", "name": {"en": "Liver Onion Roll", "az": "Ciyər-Soğan Roll", "ru": "Ролл с печенью и луком"}, "price": 6, "image": "https://images.unsplash.com/photo-1582234372722-50d7ccc30e5a?w=600&q=80", "description": {"en": "Savory liver roll", "az": "Dadlı ciyər roll", "ru": "Сытный ролл с печенью"}},
+          {"id": "quesadillas", "name": {"en": "Quesadillas", "az": "Kesadilya", "ru": "Кесадилья"}, "price": 13, "image": "https://images.unsplash.com/photo-1599974590225-29adce33f10f?w=600&q=80", "description": {"en": "Cheesy quesadillas", "az": "Pendirli kesadilya", "ru": "Сырная кесадилья"}},
+          {"id": "burrito-wrap", "name": {"en": "Burrito Wrap", "az": "Burrito", "ru": "Буррито"}, "price": 19, "image": "https://images.unsplash.com/photo-1583032013897-408990f77271?w=600&q=80", "description": {"en": "Classic burrito wrap", "az": "Klassik burrito", "ru": "Классическое буррито"}}
+        ]
+      },
+      {
+        "id": "soups",
+        "name": {"en": "SOUPS", "az": "ŞORBALAR", "ru": "СУПЫ"},
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {"id": "lentil-soup", "name": {"en": "Lentil Soup", "az": "Mərci Şorbası", "ru": "Чечевичный суп"}, "price": 5, "image": "https://images.unsplash.com/photo-1547592116-8b9d865ee8f9?w=600&q=80", "description": {"en": "Classic lentil soup", "az": "Klassik mərci", "ru": "Чечевичный суп"}},
+          {"id": "tomato-cream", "name": {"en": "Tomato Cream Soup", "az": "Pomidor Krem Şorbası", "ru": "Томатный крем-суп"}, "price": 5, "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80", "description": {"en": "Smooth tomato cream", "az": "Zərif pomidor krem", "ru": "Томатный крем-суп"}},
+          {"id": "beef-veg", "name": {"en": "Beef Vegetable Soup", "az": "Ətli Tərəvəz Şorbası", "ru": "Овощной суп с говядиной"}, "price": 6, "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?w=600&q=80", "description": {"en": "Rich beef and veg", "az": "Zəngin ətli tərəvəz", "ru": "Сытный суп с говядиной"}},
+          {"id": "chicken-noodle", "name": {"en": "Chicken Noodle Soup", "az": "Toyuqlu Erişte Şorbası", "ru": "Куриный суп с лапшой"}, "price": 6, "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=600&q=80", "description": {"en": "Hearty chicken noodle", "az": "Toyuqlu ev şorbası", "ru": "Куриная лапша"}},
+          {"id": "mushroom-cream", "name": {"en": "Mushroom Cream Soup", "az": "Göbələk Krem Şorbası", "ru": "Грибной крем-суп"}, "price": 6, "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80", "description": {"en": "Velvety mushroom cream", "az": "Zərif göbələk krem", "ru": "Грибной крем-суп"}},
+          {"id": "dushbara", "name": {"en": "Dushbara", "az": "Düşbərə", "ru": "Дюшбара"}, "price": 5, "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=600&q=80", "description": {"en": "Baku lamb dumplings", "az": "Bakı düşbərəsi", "ru": "Бакинская дюшбара"}}
+        ]
+      },
+      {
+        "id": "salads",
+        "name": {"en": "SALADS", "az": "SALATLAR", "ru": "САЛАТЫ"},
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {"id": "tuna-salad", "name": {"en": "Tuna Fish Salad", "az": "Tun Balığı Salatı", "ru": "Салат с тунцом"}, "price": 8, "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600&q=80", "description": {"en": "Fresh tuna salad", "az": "Təzə tun salatı", "ru": "Салат с тунцом"}},
+          {"id": "chicken-salad", "name": {"en": "Chicken Salad", "az": "Toyuq Salatı", "ru": "Куриный салат"}, "price": 7, "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=600&q=80", "description": {"en": "Classic chicken salad", "az": "Toyuq salatı", "ru": "Куриный салат"}},
+          {"id": "chicken-caesar", "name": {"en": "Chicken Caesar Salad", "az": "Toyuqlu Sezar", "ru": "Цезарь с курицей"}, "price": 10, "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=600&q=80", "description": {"en": "Classic Caesar", "az": "Klassik Sezar", "ru": "Классический Цезарь"}},
+          {"id": "seafood-caesar", "name": {"en": "Seafood Caesar Salad", "az": "Dəniz Məhsullu Sezar", "ru": "Цезарь с морепродуктами"}, "price": 14, "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&q=80", "description": {"en": "Caesar with seafood", "az": "Dəniz məhsullu Sezar", "ru": "Цезарь с морепродуктами"}},
+          {"id": "greek-salad", "name": {"en": "Greek Salad", "az": "Yunan Salatı", "ru": "Греческий салат"}, "price": 7, "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80", "description": {"en": "Fresh Greek salad", "az": "Təzə Yunan salatı", "ru": "Греческий салат"}},
+          {"id": "fresh-salad", "name": {"en": "Fresh Salad", "az": "Paytaxt Salatı", "ru": "Свежий салат"}, "price": 6, "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80", "description": {"en": "Seasonal fresh greens", "az": "Mövsümi göyərti", "ru": "Свежая зелень"}},
+          {"id": "shrimp-cocktail", "name": {"en": "Shrimp Cocktail", "az": "Krevet Kokteyli", "ru": "Коктейль из креветок"}, "price": 12, "image": "https://images.unsplash.com/photo-1559742811-82286364ceaf?w=600&q=80", "description": {"en": "Classic shrimp cocktail", "az": "Klassik krevet kokteyli", "ru": "Креветочный коктейль"}},
+          {"id": "smoked-salmon-salad", "name": {"en": "Smoked Salmon Salad", "az": "Qızılbalıq Salatı", "ru": "Салат с копченым лососем"}, "price": 14, "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80", "description": {"en": "Premium salmon salad", "az": "Premium qızılbalıq salatı", "ru": "Салат с лососем"}}
+        ]
+      },
+      {
+        "id": "starters",
+        "name": {"en": "STARTERS & BEER SNACKS", "az": "QƏLYANALTILAR VƏ PİVƏ MƏZƏLƏRİ", "ru": "ЗАКУСКИ К ПИВУ"},
+        "image": "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {"id": "onion-rings", "name": {"en": "Onion Rings", "az": "Soğan Halqaları", "ru": "Луковые кольца"}, "price": 5, "image": "https://images.unsplash.com/photo-1639024471283-035188835118?w=600&q=80", "description": {"en": "Crispy onion rings", "az": "Xırtıldayan soğan", "ru": "Луковые кольца"}},
+          {"id": "cajun-nuggets", "name": {"en": "Chicken Cajun Nuggets", "az": "Toyuq Nacets", "ru": "Наггетсы каджун"}, "price": 8, "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=600&q=80", "description": {"en": "Spicy Cajun nuggets", "az": "Acılı nacets", "ru": "Острые наггетсы"}},
+          {"id": "potato-skins", "name": {"en": "Potato Skins", "az": "Kartof Qabıqları", "ru": "Картофельные дольки"}, "price": 6, "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80", "description": {"en": "Crispy potato skins", "az": "Xırtıldayan kartof", "ru": "Картофель"}},
+          {"id": "fried-mushroom", "name": {"en": "Deep Fried Mushroom", "az": "Qızardılmış Göbələk", "ru": "Жареные грибы"}, "price": 7, "image": "https://images.unsplash.com/photo-1569058242253-92a9c71f9867?w=600&q=80", "description": {"en": "Crispy mushrooms", "az": "Xırtıldayan göbələk", "ru": "Жареные грибы"}},
+          {"id": "scampi", "name": {"en": "Scampi", "az": "Skampi", "ru": "Скампи"}, "price": 10, "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=600&q=80", "description": {"en": "Golden scampi", "az": "Qızılı skampi", "ru": "Золотистые скампи"}},
+          {"id": "wings", "name": {"en": "Chicken Wings", "az": "Toyuq Qanadları", "ru": "Куриные крылышки"}, "price": 8, "image": "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=600&q=80", "description": {"en": "Crispy wings", "az": "Xırtıldayan qanadlar", "ru": "Крылышки"}},
+          {"id": "nachos", "name": {"en": "Cheese Nachos", "az": "Pendirli Naços", "ru": "Начос с сыром"}, "price": 10, "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600&q=80", "description": {"en": "Crunchy nachos", "az": "Xırtıldayan naços", "ru": "Начос"}},
+          {"id": "beef-nachos", "name": {"en": "Beef Cheese Nachos", "az": "Ətli Naços", "ru": "Начос с говядиной"}, "price": 15, "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600&q=80", "description": {"en": "Nachos with beef", "az": "Ətli naços", "ru": "Начос с говядиной"}},
+          {"id": "chicken-nachos", "name": {"en": "Chicken Cheese Nachos", "az": "Toyuqlu Naços", "ru": "Начос с курицей"}, "price": 13, "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600&q=80", "description": {"en": "Nachos with chicken", "az": "Toyuqlu naços", "ru": "Начос с курицей"}},
+          {"id": "spring-rolls", "name": {"en": "Spring Rolls", "az": "Sprinq Roll", "ru": "Спринг-роллы"}, "price": 6, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Vegetable spring rolls", "az": "Tərəvəzli rollar", "ru": "Спринг-роллы"}},
+          {"id": "fried-smoked-cheese", "name": {"en": "Deep Fried Smoked Cheese", "az": "Hisə Verilmiş Pendir", "ru": "Жареный копченый сыр"}, "price": 6, "image": "https://images.unsplash.com/photo-1560611580-47477ca97079?w=600&q=80", "description": {"en": "Crispy smoked cheese", "az": "Xırtıldayan hisəli pendir", "ru": "Жареный сыр"}},
+          {"id": "fried-halloumi", "name": {"en": "Deep Fried Halloumi Cheese", "az": "Xallumi Pendiri", "ru": "Жареный халуми"}, "price": 7, "image": "https://images.unsplash.com/photo-1560611580-47477ca97079?w=600&q=80", "description": {"en": "Golden halloumi", "az": "Qızılı xallumi", "ru": "Халуми"}},
+          {"id": "khinkali-ajika", "name": {"en": "Khinkali with Ajika Sauce", "az": "Acikalı Xəngəl", "ru": "Хинкали с аджикой"}, "price": 5, "image": "https://images.unsplash.com/photo-1582234372722-50d7ccc30e5a?w=600&q=80", "description": {"en": "Spicy khinkali", "az": "Acılı xəngəl", "ru": "Хинкали"}}
+        ]
+      },
+      {
+        "id": "pasta-garnish",
+        "name": {"en": "PASTA & GARNISH", "az": "PASTA VƏ QARNİRLƏR", "ru": "ПАСТА И ГАРНИРЫ"},
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {"id": "bolognese", "name": {"en": "Spaghetti Bolognese", "az": "Spaqetti Bolonyeze", "ru": "Спагетти Болоньезе"}, "price": 12, "image": "https://images.unsplash.com/photo-1572441713132-c542fc4fe282?w=600&q=80", "description": {"en": "Rich meat sauce", "az": "Ət souslu pasta", "ru": "Паста Болоньезе"}},
+          {"id": "carbonara", "name": {"en": "Spaghetti Carbonara", "az": "Spaqetti Karbonara", "ru": "Спагетти Карбонара"}, "price": 12, "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&q=80", "description": {"en": "Creamy carbonara", "az": "Qaymaqlı karbonara", "ru": "Карбонара"}},
+          {"id": "penne-alfredo", "name": {"en": "Penne Alfredo", "az": "Penne Alfredo", "ru": "Пенне Альфредо"}, "price": 12, "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=600&q=80", "description": {"en": "Classic Alfredo", "az": "Klassik Alfredo", "ru": "Пенне Альфредо"}},
+          {"id": "arrabbiata", "name": {"en": "Penne All Arrabbiata", "az": "Penne Arabiata", "ru": "Пенне Арраббьята"}, "price": 10, "image": "https://images.unsplash.com/photo-1572441713132-c542fc4fe282?w=600&q=80", "description": {"en": "Spicy tomato pasta", "az": "Acılı pomidor pasta", "ru": "Острая паста"}},
+          {"id": "singapore-noodles", "name": {"en": "Singapore Noodles", "az": "Sinqapur Eriştəsi", "ru": "Сингапурская лапша"}, "price": 12, "image": "https://images.unsplash.com/photo-1552611052-33e04de081de?w=600&q=80", "description": {"en": "Aromatic noodles", "az": "Ətirli erişte", "ru": "Лапша"}},
+          {"id": "fried-rice", "name": {"en": "Special Fried Rice", "az": "Xüsusi Qızardılmış Düyü", "ru": "Жареный рис"}, "price": 12, "image": "https://images.unsplash.com/photo-1512058560366-cd2427ff06b3?w=600&q=80", "description": {"en": "Fragrant fried rice", "az": "Ətirli düyü", "ru": "Жареный рис"}},
+          {"id": "mashed-potato", "name": {"en": "Garlic Cheese Mashed Potato", "az": "Sarımsaqlı Püre", "ru": "Пюре с чесноком и сыром"}, "price": 7, "image": "https://images.unsplash.com/photo-1621800043295-a73fe2f76e2c?w=600&q=80", "description": {"en": "Creamy mashed potato", "az": "Zərif püre", "ru": "Пюре"}},
+          {"id": "fries", "name": {"en": "French Fries", "az": "Kartof Fri", "ru": "Картофель фри"}, "price": 6, "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80", "description": {"en": "Crispy golden fries", "az": "Xırtıldayan fri", "ru": "Картофель фри"}},
+          {"id": "cheese-fries", "name": {"en": "French Fries with Cheese", "az": "Pendirli Fri", "ru": "Картофель фри с сыром"}, "price": 8, "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&q=80", "description": {"en": "Fries with melted cheese", "az": "Pendirli fri", "ru": "Картофель с сыром"}},
+          {"id": "pizza-salami", "name": {"en": "Pizza with Salami", "az": "Salamili Pitsa", "ru": "Пицца с салями"}, "price": 14, "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&q=80", "description": {"en": "Salami and cheese", "az": "Salamili pitsa", "ru": "Пицца с салями"}},
+          {"id": "pizza-chicken", "name": {"en": "Pizza with Chicken", "az": "Toyuqlu Pitsa", "ru": "Пицца с курицей"}, "price": 14, "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&q=80", "description": {"en": "Chicken and cheese", "az": "Toyuqlu pitsa", "ru": "Пицца с курицей"}}
+        ]
+      },
+      {
+        "id": "main-course-poultry",
+        "name": {"en": "MAIN COURSE POULTRY", "az": "ƏSAS YEMƏKLƏR: QUŞ ƏTİ", "ru": "ОСНОВНЫЕ БЛЮДА: ПТИЦА"},
+        "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {"id": "manchurian-chicken", "name": {"en": "Manchurian Chicken", "az": "Mançuriyan Toyuq", "ru": "Цыпленок по-маньчжурски"}, "price": 15, "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&q=80", "description": {"en": "Spicy Asian chicken", "az": "Acılı Asiya toyuğu", "ru": "Острый цыпленок"}},
+          {"id": "italiano-chicken", "name": {"en": "Chicken Ala Italiano", "az": "İtalyan Sayağı Toyuq", "ru": "Цыпленок по-итальянски"}, "price": 14, "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&q=80", "description": {"en": "Herb roasted chicken", "az": "Ətirli qovrulmuş toyuq", "ru": "Цыпленок с травами"}},
+          {"id": "cordon-blue", "name": {"en": "Chicken Cordon Blue", "az": "Toyuq Kordon Blyu", "ru": "Кордон блю из курицы"}, "price": 15, "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&q=80", "description": {"en": "Ham and cheese stuffed", "az": "Pendirli toyuq filesi", "ru": "Кордон блю"}},
+          {"id": "parisienne-chicken", "name": {"en": "Chicken Ala Parisienne", "az": "Paris Sayağı Toyuq", "ru": "Цыпленок по-парижски"}, "price": 15, "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&q=80", "description": {"en": "Creamy French style", "az": "Fransız sayağı toyuq", "ru": "Цыпленок в сливках"}},
+          {"id": "chicken-korma", "name": {"en": "Chicken Korma", "az": "Toyuq Korma", "ru": "Куриная корма"}, "price": 15, "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&q=80", "description": {"en": "Mild Indian curry", "az": "Hind sayağı karri", "ru": "Карри корма"}},
+          {"id": "tikka-masala", "name": {"en": "Chicken Tikka Masala", "az": "Toyuq Tikka Masala", "ru": "Курица тикка-масала"}, "price": 14, "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80", "description": {"en": "Spicy tomato curry", "az": "Acılı pomidor karri", "ru": "Тикка-масала"}},
+          {"id": "schnitzel", "name": {"en": "Schnitzel", "az": "Şnisel", "ru": "Шницель"}, "price": 10, "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&q=80", "description": {"en": "Crispy breaded chicken", "az": "Xırtıldayan şnisel", "ru": "Шницель"}},
+          {"id": "chicken-pie", "name": {"en": "Chicken Pie", "az": "Toyuqlu Piroq", "ru": "Пирог с курицей"}, "price": 12, "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&q=80", "description": {"en": "Savory chicken pie", "az": "Toyuqlu piroq", "ru": "Куриный пирог"}},
+          {"id": "chicken-curry", "name": {"en": "Chicken Curry", "az": "Toyuq Karri", "ru": "Куриный карри"}, "price": 15, "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80", "description": {"en": "Aromatic chicken curry", "az": "Ətirli toyuq karri", "ru": "Карри"}},
+          {"id": "chicken-prawns", "name": {"en": "Chicken with Prawns", "az": "Krevetli Toyuq", "ru": "Курица с креветками"}, "price": 20, "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&q=80", "description": {"en": "Surf and turf", "az": "Dəniz məhsullu toyuq", "ru": "Курица и креветки"}},
+          {"id": "chicken-fajitas", "name": {"en": "Chicken Fajitas", "az": "Toyuq Faxitas", "ru": "Фахитас с курицей"}, "price": 15, "image": "https://images.unsplash.com/photo-1534352956274-453724bc2451?w=600&q=80", "description": {"en": "Sizzling fajitas", "az": "Faxitas", "ru": "Фахитас"}},
+          {"id": "roast-chicken", "name": {"en": "Roast Chicken", "az": "Toyuq Qızartması", "ru": "Жареная курица"}, "price": 10, "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&q=80", "description": {"en": "Classic roast chicken", "az": "Toyuq qızartması", "ru": "Жареная курица"}},
+          {"id": "chicken-kabab", "name": {"en": "Chicken Kabab on the Stick", "az": "Şişdə Toyuq Kababı", "ru": "Куриный шашлык"}, "price": 13, "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600&q=80", "description": {"en": "Grilled chicken kebab", "az": "Toyuq kababı", "ru": "Шашлык"}}
+        ]
+      },
+      {
+        "id": "main-course-seafood",
+        "name": {"en": "MAIN COURSE SEA FOOD", "az": "ƏSAS YEMƏKLƏR: DƏNİZ MƏHSULLARI", "ru": "ОСНОВНЫЕ БЛЮДА: РЫБА И МОРЕПРОДУКТЫ"},
+        "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {"id": "fish-chips", "name": {"en": "Fish and Chips", "az": "Balıq və Fri", "ru": "Фиш энд чипс"}, "price": 15, "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80", "description": {"en": "Classic pub style", "az": "Pivə sayağı balıq", "ru": "Фиш энд чипс"}},
+          {"id": "special-prawns", "name": {"en": "Special Prawns", "az": "Xüsusi Krevetlər", "ru": "Фирменные креветки"}, "price": 19, "image": "https://images.unsplash.com/photo-1559742811-82286364ceaf?w=600&q=80", "description": {"en": "Chef's special prawns", "az": "Xüsusi krevetlər", "ru": "Фирменные креветки"}},
+          {"id": "mushroom-prawns", "name": {"en": "Mushroom Prawns", "az": "Göbələkli Krevetlər", "ru": "Креветки с грибами"}, "price": 20, "image": "https://images.unsplash.com/photo-1559742811-82286364ceaf?w=600&q=80", "description": {"en": "Prawns with mushrooms", "az": "Göbələkli krevet", "ru": "Креветки с грибами"}},
+          {"id": "prawns-chicken", "name": {"en": "Prawns with Chicken", "az": "Toyuqlu Krevetlər", "ru": "Креветки с курицей"}, "price": 20, "image": "https://images.unsplash.com/photo-1559742811-82286364ceaf?w=600&q=80", "description": {"en": "Seafood and poultry", "az": "Dəniz məhsullu toyuq", "ru": "Креветки и курица"}},
+          {"id": "prawns-bacon", "name": {"en": "Prawns Wrapped in Bacon", "az": "Bekonlu Krevetlər", "ru": "Креветки в беконе"}, "price": 20, "image": "https://images.unsplash.com/photo-1559742811-82286364ceaf?w=600&q=80", "description": {"en": "Smoky bacon prawns", "az": "Bekonlu krevetlər", "ru": "Креветки в беконе"}},
+          {"id": "breaded-prawns", "name": {"en": "Breaded Prawns", "az": "Xırtıldayan Krevetlər", "ru": "Креветки в панировке"}, "price": 20, "image": "https://images.unsplash.com/photo-1559742811-82286364ceaf?w=600&q=80", "description": {"en": "Crispy breaded prawns", "az": "Xırtıldayan krevetlər", "ru": "Креветки в панировке"}},
+          {"id": "sturgeon-kebab", "name": {"en": "Sturgeon Kebab", "az": "Nərə Balığı Kababı", "ru": "Шашлык из осетрины"}, "price": 25, "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80", "description": {"en": "Grilled sturgeon", "az": "Nərə kababı", "ru": "Осетрина на гриле"}},
+          {"id": "sturgeon-milanese", "name": {"en": "Sturgeon Milanese", "az": "Milaneze Nərə", "ru": "Осетрина по-милански"}, "price": 30, "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80", "description": {"en": "Premium sturgeon", "az": "Premium nərə", "ru": "Осетрина"}}
+        ]
+      },
+      {
+        "id": "main-course-meat",
+        "name": {"en": "MAIN COURSE MEAT", "az": "ƏSAS YEMƏKLƏR: ƏT", "ru": "ОСНОВНЫЕ БЛЮДА: МЯСО"},
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {"id": "steak-pie", "name": {"en": "Steak Pie", "az": "Ətli Piroq", "ru": "Пирог со стейком"}, "price": 15, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Savory meat pie", "az": "Ətli piroq", "ru": "Мясной пирог"}},
+          {"id": "bangers-mash", "name": {"en": "Bangers and Mash", "az": "Sosis və Püre", "ru": "Колбаски с пюре"}, "price": 13, "image": "https://images.unsplash.com/photo-1582234372722-50d7ccc30e5a?w=600&q=80", "description": {"en": "Sausages and mash", "az": "Sosis və püre", "ru": "Колбаски с пюре"}},
+          {"id": "chorizo-steak", "name": {"en": "Chorizo Steak", "az": "Çorizo Steyk", "ru": "Чоризо стейк"}, "price": 30, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Spicy steak", "az": "Acılı steyk", "ru": "Острый стейк"}},
+          {"id": "sabana-steak", "name": {"en": "Sabana Steak", "az": "Sabana Steyk", "ru": "Сабана стейк"}, "price": 30, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Thinly pounded steak", "az": "Nazik steyk", "ru": "Тонкий стейк"}},
+          {"id": "steak", "name": {"en": "Steak", "az": "Steyk", "ru": "Стейк"}, "price": 30, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Classic grilled steak", "az": "Klassik steyk", "ru": "Стейк на гриле"}},
+          {"id": "fillet-mignon", "name": {"en": "Fillet Mignon", "az": "File Minyon", "ru": "Филе-миньон"}, "price": 30, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Tender beef fillet", "az": "Zərif can əti", "ru": "Филе-миньон"}},
+          {"id": "veal-parisienne", "name": {"en": "Veal Ala Parisienne", "az": "Paris Sayağı Dana", "ru": "Телятина по-парижски"}, "price": 22, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "French style veal", "az": "Fransız sayağı dana", "ru": "Телятина"}},
+          {"id": "pork-chop", "name": {"en": "Pork Chop", "az": "Donuz Pirzolası", "ru": "Свиная отбивная"}, "price": 22, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Juicy pork chop", "az": "Şirəli pirzola", "ru": "Свиная отбивная"}},
+          {"id": "beef-kebab", "name": {"en": "Beef Kebab on the Stick", "az": "Şişdə Mal Kababı", "ru": "Шашлык из говядины"}, "price": 25, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Grilled beef kebab", "az": "Mal əti kababı", "ru": "Шашлык"}},
+          {"id": "bacon-steak", "name": {"en": "Grilled Bacon Steak", "az": "Qril Bekon Steyki", "ru": "Стейк из бекона на гриле"}, "price": 12, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Smoky bacon steak", "az": "Tüstülü bekon steyki", "ru": "Бекон на гриле"}},
+          {"id": "lamb-chops", "name": {"en": "Lamb Chops Kebab", "az": "Quzu Pirzolası Kababı", "ru": "Шашлык из бараньих ребрышек"}, "price": 18, "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80", "description": {"en": "Tender lamb chops", "az": "Zərif quzu pirzolası", "ru": "Бараньи ребрышки"}},
+          {"id": "ribeye", "name": {"en": "Ribeye Steak", "az": "Ribay Steyk", "ru": "Рибай стейк"}, "price": 30, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Marbled beef steak", "az": "Mərmər ət steyki", "ru": "Рибай"}},
+          {"id": "liver-onion-bacon", "name": {"en": "Liver Onion Bacon", "az": "Bekonlu Ciyər-Soğan", "ru": "Печень с луком и беконом"}, "price": 17, "image": "https://images.unsplash.com/photo-1582234372722-50d7ccc30e5a?w=600&q=80", "description": {"en": "Savory meat mix", "az": "Doyumlu ət mixi", "ru": "Печень с беконом"}},
+          {"id": "osso-buco", "name": {"en": "Osso Buco", "az": "Osso Buko", "ru": "Оссобуко"}, "price": 20, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Slow cooked veal shank", "az": "Vam bişmiş dana", "ru": "Оссобуко"}},
+          {"id": "lamb-shank", "name": {"en": "Lamb Shank", "az": "Quzu İncili", "ru": "Голяшка ягненка"}, "price": 20, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80", "description": {"en": "Tender lamb shank", "az": "Zərif quzu incili", "ru": "Голяшка ягненка"}},
+          {"id": "sausage-chips", "name": {"en": "Beef Sausage with Chips", "az": "Sosis və Fri", "ru": "Сосиски с картофелем"}, "price": 8, "image": "https://images.unsplash.com/photo-1582234372722-50d7ccc30e5a?w=600&q=80", "description": {"en": "Sausage and fries", "az": "Sosis və fri", "ru": "Сосиски с фри"}}
+        ]
+      },
+      {
+        "id": "desserts-hot-drinks",
+        "name": {"en": "DESSERTS & HOT DRINKS", "az": "DESERTLƏR VƏ İSTİ İÇKİLƏR", "ru": "ДЕСЕРТЫ И ГОРЯЧИЕ НАПИТКИ"},
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=80",
+        "items": [
+          {"id": "apple-pie", "name": {"en": "Apple Pie", "az": "Almalı Piroq", "ru": "Яблочный пирог"}, "price": 5, "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=600&q=80", "description": {"en": "Classic apple pie", "az": "Almalı piroq", "ru": "Яблочный пирог"}},
+          {"id": "ice-cream", "name": {"en": "Ice Cream", "az": "Dondurma", "ru": "Мороженое"}, "price": 5, "image": "https://images.unsplash.com/photo-1501443662994-72bd9d33077d?w=600&q=80", "description": {"en": "Assorted flavors", "az": "Çeşidli dondurma", "ru": "Мороженое"}},
+          {"id": "tea", "name": {"en": "Tea", "az": "Çay", "ru": "Чай"}, "price": 2, "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&q=80", "description": {"en": "Freshly brewed tea", "az": "Təzə çay", "ru": "Чай"}},
+          {"id": "coffee", "name": {"en": "Coffee", "az": "Qəhvə", "ru": "Кофе"}, "price": 5, "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80", "description": {"en": "Fresh roast coffee", "az": "Qəhvə", "ru": "Кофе"}},
+          {"id": "cappuccino", "name": {"en": "Cappuccino", "az": "Kapuçino", "ru": "Капучино"}, "price": 5, "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80", "description": {"en": "Frothy cappuccino", "az": "Kapuçino", "ru": "Капучино"}},
+          {"id": "hot-chocolate", "name": {"en": "Hot Chocolate", "az": "İsti Şokolad", "ru": "Горячий шоколад"}, "price": 5, "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80", "description": {"en": "Rich hot chocolate", "az": "İsti şokolad", "ru": "Горячий шоколад"}}
+        ]
+      }
+    ]
+  },
+  "bar": {
+    "title": {"en": "BAR", "az": "BAR", "ru": "БАР"},
+    "categories": [
+      {
+        "id": "draft-beer",
+        "name": {"en": "Draft Beer", "az": "Çəllək Pivəsi", "ru": "Разливное Пиво"},
+        "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=1200&q=80",
+        "items": [
+          {"id": "garage-special", "name": {"en": "Garage Special", "az": "Garage Special", "ru": "Garage Special"}, "price": 5, "volume": "0.5L", "description": {"en": "House special draft", "az": "Xüsusi ev pivəsi", "ru": "Фирменное разливное"}},
+          {"id": "grimbergen", "name": {"en": "Grimbergen", "az": "Grimbergen", "ru": "Grimbergen"}, "price": 8, "volume": "0.5L", "description": {"en": "Belgian abbey beer", "az": "Belçika pivəsi", "ru": "Бельгийское аббатское"}},
+          {"id": "guinness", "name": {"en": "Guinness", "az": "Guinness", "ru": "Guinness"}, "price": 10, "volume": "0.5L", "description": {"en": "Irish stout", "az": "İrland stoutu", "ru": "Ирландский стаут"}}
+        ]
+      },
+      {
+        "id": "bottled-beer-cider",
+        "name": {"en": "Bottled Beer & Cider", "az": "Şüşə Pivə və Sidr", "ru": "Бутылочное Пиво и Сидр"},
+        "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&q=80",
+        "items": [
+          {"id": "heineken", "name": {"en": "Heineken", "az": "Heineken", "ru": "Heineken"}, "price": 7, "image": "https://images.unsplash.com/photo-1618885472111-0a6965d140e9?w=600&q=80"},
+          {"id": "corona", "name": {"en": "Corona", "az": "Corona", "ru": "Corona"}, "price": 8, "image": "https://images.unsplash.com/photo-1584225064785-c62a8b43d148?w=600&q=80"},
+          {"id": "miller", "name": {"en": "Miller", "az": "Miller", "ru": "Miller"}, "price": 6, "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&q=80"},
+          {"id": "stella", "name": {"en": "Stella Artois", "az": "Stella Artois", "ru": "Stella Artois"}, "price": 8, "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&q=80"},
+          {"id": "efes-bottle", "name": {"en": "Efes Bottle", "az": "Efes Şüşə", "ru": "Efes бутылка"}, "price": 5, "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&q=80"},
+          {"id": "efes-can", "name": {"en": "Efes Can", "az": "Efes Banka", "ru": "Efes банка"}, "price": 6, "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&q=80"},
+          {"id": "xirdalan", "name": {"en": "Xirdalan", "az": "Xırdalan", "ru": "Хырдалан"}, "price": 5, "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&q=80"},
+          {"id": "xirdalan-unfiltered", "name": {"en": "Xirdalan Unfiltered", "az": "Xırdalan Süzülməmiş", "ru": "Хырдалан нефильтрованное"}, "price": 5, "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&q=80"},
+          {"id": "erdinger", "name": {"en": "Erdinger Light / Dark", "az": "Erdinger", "ru": "Erdinger"}, "price": 10, "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=600&q=80"},
+          {"id": "strongbow", "name": {"en": "Strongbow", "az": "Strongbow", "ru": "Strongbow"}, "price": 9, "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80"},
+          {"id": "magners", "name": {"en": "Magners", "az": "Magners", "ru": "Magners"}, "price": 9, "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80"}
+        ]
+      },
+      {
+        "id": "whiskey",
+        "name": {"en": "Whiskey", "az": "Viski", "ru": "Виски"},
+        "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?w=1200&q=80",
+        "items": [
+          {"id": "glendfiddich-12", "name": {"en": "Glenfiddich 12", "az": "Glenfiddich 12", "ru": "Glenfiddich 12"}, "price": 15, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "glendfiddich-18", "name": {"en": "Glenfiddich 18", "az": "Glenfiddich 18", "ru": "Glenfiddich 18"}, "price": 22, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "glendlivet-12", "name": {"en": "Glenlivet 12", "az": "Glenlivet 12", "ru": "Glenlivet 12"}, "price": 15, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "glendmorangie", "name": {"en": "Glenmorangie", "az": "Glenmorangie", "ru": "Glenmorangie"}, "price": 15, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "macallan", "name": {"en": "Macallan", "az": "Macallan", "ru": "Macallan"}, "price": 15, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "talisker-skye", "name": {"en": "Talisker Skye", "az": "Talisker Skye", "ru": "Talisker Skye"}, "price": 15, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "talisker-10", "name": {"en": "Talisker 10", "az": "Talisker 10", "ru": "Talisker 10"}, "price": 20, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "tamnavulin", "name": {"en": "Tamnavulin", "az": "Tamnavulin", "ru": "Tamnavulin"}, "price": 15, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "kavalan", "name": {"en": "Kavalan", "az": "Kavalan", "ru": "Kavalan"}, "price": 15, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "laphroaig", "name": {"en": "Laphroaig", "az": "Laphroaig", "ru": "Laphroaig"}, "price": 15, "description": {"en": "Single Malt", "az": "Single Malt", "ru": "Односолодовый"}},
+          {"id": "ballantines", "name": {"en": "Ballantine's", "az": "Ballantine's", "ru": "Ballantine's"}, "price": 8, "description": {"en": "Blended", "az": "Blended", "ru": "Купажированный"}},
+          {"id": "black-label", "name": {"en": "Black Label", "az": "Black Label", "ru": "Black Label"}, "price": 10, "description": {"en": "Blended", "az": "Blended", "ru": "Купажированный"}},
+          {"id": "red-label", "name": {"en": "Red Label", "az": "Red Label", "ru": "Red Label"}, "price": 8, "description": {"en": "Blended", "az": "Blended", "ru": "Купажированный"}},
+          {"id": "chivas-12", "name": {"en": "Chivas Regal 12", "az": "Chivas Regal 12", "ru": "Chivas Regal 12"}, "price": 10, "description": {"en": "Blended", "az": "Blended", "ru": "Купажированный"}},
+          {"id": "monkey-shoulder", "name": {"en": "Monkey Shoulder", "az": "Monkey Shoulder", "ru": "Monkey Shoulder"}, "price": 10},
+          {"id": "jameson", "name": {"en": "Jameson", "az": "Jameson", "ru": "Jameson"}, "price": 8},
+          {"id": "bushmills", "name": {"en": "Bushmills", "az": "Bushmills", "ru": "Bushmills"}, "price": 8},
+          {"id": "jack-daniels", "name": {"en": "Jack Daniel's", "az": "Jack Daniel's", "ru": "Jack Daniel's"}, "price": 10},
+          {"id": "jim-beam", "name": {"en": "Jim Beam", "az": "Jim Beam", "ru": "Jim Beam"}, "price": 8},
+          {"id": "jb", "name": {"en": "JB", "az": "JB", "ru": "JB"}, "price": 8}
+        ]
+      },
+      {
+        "id": "cognac",
+        "name": {"en": "Cognac", "az": "Konyak", "ru": "Коньяк"},
+        "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=1200&q=80",
+        "items": [
+          {"id": "cognac-classic", "name": {"en": "Cognac", "az": "Konyak", "ru": "Коньяк"}, "price": 10}
+        ]
+      },
+      {
+        "id": "rum",
+        "name": {"en": "Rum", "az": "Rom", "ru": "Ром"},
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200&q=80",
+        "items": [
+          {"id": "captain-spiced", "name": {"en": "Captain Morgan Spiced Gold", "az": "Captain Morgan Spiced", "ru": "Captain Morgan Spiced Gold"}, "price": 7},
+          {"id": "captain-dark", "name": {"en": "Captain Morgan Dark Rum", "az": "Captain Morgan Dark", "ru": "Captain Morgan Dark Rum"}, "price": 7},
+          {"id": "bacardi", "name": {"en": "Bacardi Carta Blanca", "az": "Bacardi Carta Blanca", "ru": "Bacardi Carta Blanca"}, "price": 7}
+        ]
+      },
+      {
+        "id": "gin",
+        "name": {"en": "Gin", "az": "Cin", "ru": "Джин"},
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=1200&q=80",
+        "items": [
+          {"id": "gordons", "name": {"en": "Gordon's", "az": "Gordon's", "ru": "Gordon's"}, "price": 7},
+          {"id": "bombay", "name": {"en": "Bombay Sapphire", "az": "Bombay Sapphire", "ru": "Bombay Sapphire"}, "price": 7},
+          {"id": "pink-gin", "name": {"en": "Pink Gin", "az": "Pink Gin", "ru": "Pink Gin"}, "price": 9},
+          {"id": "hendricks", "name": {"en": "Hendrick's", "az": "Hendrick's", "ru": "Hendrick's"}, "price": 9}
+        ]
+      },
+      {
+        "id": "vermouth",
+        "name": {"en": "Vermouth", "az": "Vermut", "ru": "Вермут"},
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80",
+        "items": [
+          {"id": "martini-bianco", "name": {"en": "Martini Bianco", "az": "Martini Bianco", "ru": "Martini Bianco"}, "price": 8},
+          {"id": "martini-rosso", "name": {"en": "Martini Rosso", "az": "Martini Rosso", "ru": "Martini Rosso"}, "price": 8},
+          {"id": "martini-dry", "name": {"en": "Martini Extra Dry", "az": "Martini Extra Dry", "ru": "Martini Extra Dry"}, "price": 8}
+        ]
+      },
+      {
+        "id": "wine-prosecco",
+        "name": {"en": "Wine & Prosecco", "az": "Şərab və Prosecco", "ru": "Вино и Просекко"},
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80",
+        "items": [
+          {"id": "savalan-merlot", "name": {"en": "Savalan Merlot", "az": "Savalan Merlot", "ru": "Savalan Merlot"}, "price": 7, "volume": "150ml"},
+          {"id": "calvet-merlot", "name": {"en": "Calvet Merlot", "az": "Calvet Merlot", "ru": "Calvet Merlot"}, "price": 10, "volume": "150ml"},
+          {"id": "hillside-pinot", "name": {"en": "Hillside Pinot Grigio", "az": "Hillside Pinot Grigio", "ru": "Hillside Pinot Grigio"}, "price": 7, "volume": "150ml"},
+          {"id": "pinot-grigio", "name": {"en": "Pinot Grigio", "az": "Pinot Grigio", "ru": "Pinot Grigio"}, "price": 10, "volume": "150ml"},
+          {"id": "prosecco-astoria", "name": {"en": "Prosecco Astoria", "az": "Prosecco Astoria", "ru": "Prosecco Astoria"}, "price": 12, "volume": "150ml"}
+        ]
+      },
+      {
+        "id": "liqueurs-bitters",
+        "name": {"en": "Liqueurs & Bitters", "az": "Likörlər və Bitterlər", "ru": "Ликеры и Биттеры"},
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200&q=80",
+        "items": [
+          {"id": "absinthe", "name": {"en": "Absinthe", "az": "Absint", "ru": "Абсент"}, "price": 10},
+          {"id": "sambuca", "name": {"en": "Sambuca", "az": "Sambuka", "ru": "Самбука"}, "price": 10},
+          {"id": "jagermeister", "name": {"en": "Jägermeister", "az": "Jägermeister", "ru": "Jägermeister"}, "price": 6},
+          {"id": "disaronno", "name": {"en": "Disaronno", "az": "Disaronno", "ru": "Disaronno"}, "price": 8},
+          {"id": "drambuie", "name": {"en": "Drambuie", "az": "Drambuie", "ru": "Drambuie"}, "price": 8},
+          {"id": "heering", "name": {"en": "Heering", "az": "Heering", "ru": "Heering"}, "price": 8},
+          {"id": "grand-marnier", "name": {"en": "Grand Marnier", "az": "Grand Marnier", "ru": "Grand Marnier"}, "price": 8},
+          {"id": "cointreau", "name": {"en": "Cointreau", "az": "Kuantro", "ru": "Куантро"}, "price": 8},
+          {"id": "amaretto", "name": {"en": "Amaretto", "az": "Amaretto", "ru": "Амаретто"}, "price": 8},
+          {"id": "kahlua", "name": {"en": "Kahlua", "az": "Kahlua", "ru": "Калуа"}, "price": 8},
+          {"id": "baileys", "name": {"en": "Baileys", "az": "Baileys", "ru": "Бейлис"}, "price": 8},
+          {"id": "campari", "name": {"en": "Campari", "az": "Kampari", "ru": "Кампари"}, "price": 8},
+          {"id": "aperol", "name": {"en": "Aperol", "az": "Aperol", "ru": "Апероль"}, "price": 8},
+          {"id": "malibu", "name": {"en": "Malibu", "az": "Malibu", "ru": "Малибу"}, "price": 8}
+        ]
+      },
+      {
+        "id": "other-spirits",
+        "name": {"en": "Other Spirits", "az": "Digər Spirtli İçkilər", "ru": "Другие Спиртные Напитки"},
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=1200&q=80",
+        "items": [
+          {"id": "raki", "name": {"en": "Raki", "az": "Raki", "ru": "Раки"}, "price": 7},
+          {"id": "vodka", "name": {"en": "Vodka", "az": "Araq", "ru": "Водка"}, "price": 6},
+          {"id": "tequila", "name": {"en": "Tequila", "az": "Tekila", "ru": "Текила"}, "price": 7}
+        ]
+      },
+      {
+        "id": "soft-drinks",
+        "name": {"en": "Soft Drinks", "az": "Alkoqolsuz İçkilər", "ru": "Безалкогольные Напитки"},
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=1200&q=80",
+        "items": [
+          {"id": "red-bull", "name": {"en": "Red Bull", "az": "Red Bull", "ru": "Red Bull"}, "price": 6},
+          {"id": "cola", "name": {"en": "Cola", "az": "Cola", "ru": "Кола"}, "price": 4},
+          {"id": "cola-zero", "name": {"en": "Cola Zero", "az": "Cola Zero", "ru": "Кола Зеро"}, "price": 4},
+          {"id": "fanta", "name": {"en": "Fanta", "az": "Fanta", "ru": "Фанта"}, "price": 4},
+          {"id": "sprite", "name": {"en": "Sprite", "az": "Sprite", "ru": "Спрайт"}, "price": 4},
+          {"id": "schweppes", "name": {"en": "Schweppes", "az": "Schweppes", "ru": "Швепс"}, "price": 4},
+          {"id": "ice-tea", "name": {"en": "Ice Tea", "az": "Soyuq Çay", "ru": "Холодный чай"}, "price": 4},
+          {"id": "sarikiz", "name": {"en": "Sarikiz", "az": "Sarıkız", "ru": "Sarikiz"}, "price": 3},
+          {"id": "borjomi", "name": {"en": "Borjomi", "az": "Borjomi", "ru": "Боржоми"}, "price": 3},
+          {"id": "still-water", "name": {"en": "Still Water", "az": "Qazsız Su", "ru": "Вода без газа"}, "price": 2},
+          {"id": "sparkling-water", "name": {"en": "Sparkling Water", "az": "Qazlı Su", "ru": "Газированная вода"}, "price": 2}
+        ]
+      }
+    ]
+  }
+}
